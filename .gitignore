@@ -1,0 +1,29 @@
+# Environnements virtuels Python
+venv/
+env/
+.env
+
+# Fichiers compilés par Python
+__pycache__/
+*.py[cod]
+
+# Fichiers de configuration des éditeurs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Bases de données locales (Partie 1)
+# On ignore la base de données pour ne pas surcharger le dépôt GitHub avec des données locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers générés par l'application (Partie 2)
+# On ignorera les images téléchargées/modifiées et les rapports Word finaux
+*.docx
+*.jpg
+*.jpeg
+*.png
+
+# Fichiers système (Windows / macOS)
+Thumbs.db
+.DS_Store
